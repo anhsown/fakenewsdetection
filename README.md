@@ -13,10 +13,8 @@ and adversarial nature of misinformation means that malicious actors constantly
 evolve their language and strategies to bypass detection systems. This project
 addresses these challenges using a transformer-based language model.
 ## B. Dataset Overview
-• Source: Public dataset from Ahmed, H., Traore, I., & Saad, S. (2017)
-• Files:
-  o MisinfoSuperset_TRUE.csv (True articles from reputable sources such as
-    Reuters, The New York Times)
-  o MisinfoSuperset_FAKE.csv (Fake/misinformation articles from unreliable
-    sources)
-• Total Data: ~13,721 samples (after cleaning and deduplication)
+### • Source: Public dataset from Ahmed, H., Traore, I., & Saad, S. (2017)
+### • Files:
+  #### o MisinfoSuperset_TRUE.csv (True articles from reputable sources such as Reuters, The New York Times)
+  #### o MisinfoSuperset_FAKE.csv (Fake/misinformation articles from unreliable sources)
+### • Total Data: ~13,721 samples (after cleaning and deduplication)
