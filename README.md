@@ -57,3 +57,16 @@ addresses these challenges using a transformer-based language model.
     - Epoch 1: 0.0665
     - Epoch 2: 0.0249
     - Epoch 3: 0.0148
+## H. Performance Evaluation
+- Test set performance (13,721 samples):
+           precision recall f1-score support
+Fake       1.00      0.98   0.99     6816
+True       0.98      1.00   0.99     6905
+accuracy                    0.99     13721
+macro avg  0.99      0.99   0.99     13721
+weighted avg 0.99    0.99   0.99     13721
+- Confusion matrix: Near-perfect classification with minimal false
+positives/negatives
+- F1-score of 0.99 shows excellent balance between precision and recall
+- ROC Curve: AUC near 1.0, confirming excellent discrimination capability
+between classes
