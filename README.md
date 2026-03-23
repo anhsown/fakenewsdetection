@@ -70,8 +70,5 @@ addresses these challenges using a transformer-based language model.
 
 - Confusion matrix: Near-perfect classification with minimal false
 positives/negatives
-- F1-score of 0.99 shows excellent balance between precision and recall
 <img width="687" height="566" alt="image" src="https://github.com/user-attachments/assets/187fe9c4-7de0-40ae-97a9-7a116fe6c9f3" />
-
-- ROC Curve: AUC near 1.0, confirming excellent discrimination capability
-between classes
+- F1-score of 0.99 shows excellent balance between precision and recall
