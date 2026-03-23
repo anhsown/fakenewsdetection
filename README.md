@@ -41,3 +41,19 @@ addresses these challenges using a transformer-based language model.
 - Visualization added:
   - WordCloud of fake and real articles
   - ROC Curve plotted for binary classification
+## E. Model Building: BERT for Sequence Classification
+- Model used: BertForSequenceClassification from HuggingFace Transformers
+- Base model: bert-base-uncased• Classifier head: Linear layer with dropout
+## F. Hyperparameter Tuning
+- Batch size: 8 (to accommodate GPU memory)
+- Learning rate: 2e-5 (AdamW optimizer)
+- Epochs: 3
+- Max sequence length: 256
+## G. Model Training
+- Trained on NVIDIA Tesla T4 (15GB VRAM, 16GB RAM)
+- Training time per epoch: ~41 minutes
+- Total training time: ~2.05 hours
+- Training Loss per Epoch:
+    - Epoch 1: 0.0665
+    - Epoch 2: 0.0249
+    - Epoch 3: 0.0148
