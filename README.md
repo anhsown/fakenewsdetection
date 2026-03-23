@@ -21,14 +21,23 @@ addresses these challenges using a transformer-based language model.
 ## C. Data Preprocessing
 - Steps performed:
   - 1. Load and merge datasets:
-    - o Assigned labels: 1 for TRUE, 0 for FAKE
+    - Assigned labels: 1 for TRUE, 0 for FAKE
   - 2. Drop null and duplicate entries:
-    - o Removed all rows with missing values and duplicate content
+    - Removed all rows with missing values and duplicate content
   - 3. Text cleaning:
-    - o Lowercased text, removed special characters and excessive whitespace
+    - Lowercased text, removed special characters and excessive whitespace
         (though BERT tokenizer handles most of it internally)
   - 4. Train-test split:
-    - o Stratified 80/20 split
+     Stratified 80/20 split
   - 5. Tokenization:
-    - o Used bert-base-uncased tokenizer
-    - o Padded/truncated to a max_length=256
+    - Used bert-base-uncased tokenizer
+    - Padded/truncated to a max_length=256
+## D. Exploratory Data Analysis (EDA)
+- Label distribution: Balanced (approx. 50/50 FAKE vs. TRUE)
+- Text length: Most articles < 300 tokens, justifying max_length=256
+- Word cloud and N-gram analysis:
+  - Fake news tends to use emotionally charged language
+  - True news uses a more factual, neutral tone
+- Visualization added:
+  - WordCloud of fake and real articles
+  - ROC Curve plotted for binary classification
