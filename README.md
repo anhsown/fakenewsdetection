@@ -1,7 +1,7 @@
 # fakenewsdetection
 
 ## A. Problem Statement
-The widespread dissemination of fake news and propaganda presents serious societal
+- The widespread dissemination of fake news and propaganda presents a serious societal
 risks, including the erosion of public trust, political polarization, manipulation of
 elections, and the spread of harmful misinformation during crises such as pandemics
 or conflicts. From an NLP perspective, detecting fake news is challenging.
