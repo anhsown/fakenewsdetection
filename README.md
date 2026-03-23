@@ -74,20 +74,20 @@ positives/negatives
 <img width="687" height="566" alt="image" src="https://github.com/user-attachments/assets/187fe9c4-7de0-40ae-97a9-7a116fe6c9f3" />
 
 ## I. Conclusion
-In this project, we fine-tuned a pre-trained bert-base-uncased model to classify news
+- In this project, we fine-tuned a pre-trained bert-base-uncased model to classify news
 articles as either Fake or True using a cleaned and preprocessed dataset of
 approximately 13,721 articles. The complete machine learning pipeline was followed,
 including preprocessing, EDA, model building, hyperparameter tuning, training, and
 evaluation.
-The model achieved outstanding performance, with a 99% accuracy and F1-score on
+- The model achieved outstanding performance, with a 99% accuracy and F1-score on
 the test set, demonstrating its strong ability to detect fake news effectively. The final
 training loss dropped from 0.0665 to 0.0148 over 3 epochs.
-Despite the computational demands, training was successfully completed on Tesla T4
+- Despite the computational demands, training was successfully completed on Tesla T4
 within a practical timeframe (~41 minutes per epoch).
-Strengths of this approach include the robustness of the BERT architecture in
-understanding contextual language, and the strong generalization ability on unseen
+- Strengths of this approach include the robustness of the BERT architecture in
+understanding contextual language and the strong generalization ability on unseen
 data. However, the model’s reliance on pre-trained English BERT may limit crosslingual applicability. In future work, multilingual models such as XLM-RoBERTa could
 be explored, as well as adversarial training to handle evolving misinformation tactics.
-Overall, the results confirm that BERT-based models are highly effective for fake news
+- Overall, the results confirm that BERT-based models are highly effective for fake news
 detection and offer a reliable foundation for building real-world misinformation
 monitoring systems.
