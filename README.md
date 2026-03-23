@@ -68,8 +68,9 @@ addresses these challenges using a transformer-based language model.
 | **Macro avg** | 0.99 | 0.99 | 0.99 | 13721 |
 | **Weighted avg** | 0.99 | 0.99 | 0.99 | 13721 |
 
+- F1-score of 0.99 shows excellent balance between precision and recall
 - Confusion matrix: Near-perfect classification with minimal false
 positives/negatives
 <img width="687" height="566" alt="image" src="https://github.com/user-attachments/assets/187fe9c4-7de0-40ae-97a9-7a116fe6c9f3" />
 
-- F1-score of 0.99 shows excellent balance between precision and recall
+
